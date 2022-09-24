@@ -7,5 +7,5 @@ Sketch was coded for a ESP32, Devkitv1 and uses GPIO 19 no "monitor" if mp3 is p
 
 Wire connecting GPIO 17 to DF Mini Player, RX has a pull down resistor of 1 Megohm.
 
-Coded using a DFPlayer Mini HW-247A (GD3200B).
+Developed using a DFPlayer Mini HW-247A (GD3200B).
 
