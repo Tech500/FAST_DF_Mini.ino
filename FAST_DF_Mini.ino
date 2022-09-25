@@ -47,10 +47,10 @@ void setup()
 void loop()
 {
 
-  reward = 2;   //DF.play(2)
+  reward = 2;   //DF.playFolder(1, 2)
 
   if (reward == 1) {
-    DF.playFolder(1, 1);  //play specific mp3 in SD:/15/004.mp3; Folder Name(1~99); File Name(1~255)
+    DF.playFolder(1, 1);  //play specific mp3 in SD:/1/001.mp3; Folder Name(1~99); File Name(1~255)
     VALUE = digitalRead(PIN);
     while (VALUE == 0) {  //Playing
       VALUE = digitalRead(PIN);
@@ -62,7 +62,7 @@ void loop()
  
 
   if (reward == 2) {
-    DF.playFolder(1, 2);  //play specific mp3 in SD:/15/004.mp3; Folder Name(1~99); File Name(1~255)
+    DF.playFolder(1, 2);  //play specific mp3 in SD:/1/002.mp3; Folder Name(1~99); File Name(1~255)
     VALUE = digitalRead(PIN);
     while (VALUE == 0) {
       VALUE = digitalRead(PIN);
@@ -73,7 +73,7 @@ void loop()
   }
 
   if (reward == 3) {
-    DF.playFolder(1, 3);  //play specific mp3 in SD:/15/004.mp3; Folder Name(1~99); File Name(1~255)
+    DF.playFolder(1, 3);  //play specific mp3 in SD:/1/003.mp3; Folder Name(1~99); File Name(1~255)
     VALUE = digitalRead(PIN);
     while (VALUE == 0) {
       VALUE = digitalRead(PIN);
